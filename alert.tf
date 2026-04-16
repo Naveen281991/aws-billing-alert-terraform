@@ -18,13 +18,13 @@ variable "sns_topic_name" {
 variable "alert_thresholds" {
   description = "List of billing thresholds to create alarms for"
   type        = list(number)
-  default     = [100, 120] # Default thresholds in USD
+  default     = [05, 10] # Default thresholds in USD
 }
 
 variable "email_endpoints" {
   description = "List of email addresses to receive billing alerts"
   type        = list(string)
-  default     = ["your-email@example.com"] # Replace with actual emails
+  default     = ["naveen.j.2805@gmail.com"] # Replace with actual emails
 }
 
 variable "currency" {

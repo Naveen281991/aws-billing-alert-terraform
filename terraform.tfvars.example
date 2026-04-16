@@ -5,12 +5,12 @@
 aws_region = "us-east-1"
 
 # Billing thresholds in USD (creates alarms for each threshold)
-alert_thresholds = [100, 150, 200]
+alert_thresholds = [05,10]
 
 # Email addresses to receive billing alerts
 email_endpoints = [
-  "your-email@example.com",
-  "team@example.com"
+  "naveen.j.2805@gmail.com",
+  
 ]
 
 # Currency for billing alerts
